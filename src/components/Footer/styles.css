@@ -1,0 +1,23 @@
+.footer {
+  margin-bottom: 10px;
+  background-color: rgb(232, 240, 250);
+  height: 10em;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #1b165a;
+
+  /* vertical-align: middle; */
+}
+span {
+  font-size: 1.5em;
+}
+a {
+  color: rgb(16, 110, 90);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #17a589;
+}

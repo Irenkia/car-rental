@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../../assets/banner11.jpg) no-repeat;
+}
+
+.content {
+  text-align: center;
+  width: 60rem;
+  background-position: center;
+}
+.content h3 {
+  color: rgb(66, 57, 57);
+  font-size: 3rem;
+  text-shadow: #666;
+}
+.content h3 span {
+  color: #17a589;
+}
+.content p {
+  color: #130f40;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #130f40;
+  color: #17a589;
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover {
+  background: #130f40;
+  color: #fff;
+}
