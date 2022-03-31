@@ -1,0 +1,37 @@
+#floater {
+  float: right;
+  height: 50%;
+  width: 100%;
+  margin-bottom: -50px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: url(../../../assets/fon3.jpg) no-repeat;
+  /* background-image: url("../../assets/banner1.jpg"); */
+  padding: 1rem 9%;
+}
+.about h3 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #17a589;
+  line-height: 30px;
+}
+.about p {
+  color: #130f40;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  /* line-height: 1.8; */
+}
+.about blockquote {
+  color: #130f40;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  /* line-height: 1.8; */
+}
+.about img {
+  padding: 1rem 0;
+  /* line-height: 1.8; */
+}

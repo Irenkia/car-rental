@@ -1,19 +1,20 @@
 .home {
   display: flex;
-  /* position: absolute; */
-  /* top: 8px; */
   align-items: center;
-  /* vertical-align: text-top; */
   justify-content: center;
-  background: url(../../assets/banner11.jpg) no-repeat;
+  /* background: url(../../../assets/fon3.jpg) no-repeat; */
+  background: url(../../../assets/banner1.jpg) no-repeat;
+  /* background-image: url("../../assets/banner11.jpg"); */
   padding: 20rem 9%;
 }
-.content {
+/* .content {
   width: 60rem;
-}
+} */
 .content h3 {
+  padding-top: 20px;
   color: #130f40;
   font-size: 3rem;
+  line-height: 10px;
   /* text-shadow: #666; */
 }
 .content h3 span {
@@ -23,10 +24,10 @@
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
-  /* line-height: 1.8; */
+  line-height: 50px;
 }
 .btn {
-  margin-top: 1rem;
+  margin-top: 3rem;
   display: inline-block;
   padding: 0.8rem 3rem;
   font-size: 1.7rem;
