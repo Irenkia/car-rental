@@ -31,3 +31,8 @@
 .header .navbar a:hover {
   color: #17a589;
 }
+/* @media screen and (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+  }
+} */

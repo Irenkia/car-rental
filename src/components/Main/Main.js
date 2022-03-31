@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import banner11 from "./../../assets/banner11.jpg";
 
 const Main = () => {
   return (

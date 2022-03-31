@@ -1,6 +1,9 @@
 .home {
   display: flex;
+  /* position: absolute; */
+  /* top: 8px; */
   align-items: center;
+  /* vertical-align: text-top; */
   justify-content: center;
   background: url(../../assets/banner11.jpg) no-repeat;
   padding: 20rem 9%;
@@ -20,7 +23,7 @@
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
-  line-height: 1.8;
+  /* line-height: 1.8; */
 }
 .btn {
   margin-top: 1rem;
@@ -37,4 +40,21 @@
 .btn:hover {
   background: #130f40;
   color: #fff;
+}
+@media screen and (max-width: 1020px) {
+  /* .home {
+    font-size: 0.9em;
+    width: 100vw;
+    flex-direction: column;
+  } */
+  /* .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+  } */
 }
