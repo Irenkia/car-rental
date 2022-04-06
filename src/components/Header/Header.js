@@ -4,10 +4,7 @@ import "./styles.css";
 const Header = () => {
   return (
     <div className="header">
-      <a href="#" className="logo">
-        Car Rental
-      </a>
-
+      <h2 className="logo">Car Rental</h2>
       <nav className="navbar">
         <a href="#home">Home</a>
         <a href="#about">About</a>

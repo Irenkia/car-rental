@@ -14,18 +14,21 @@
   padding: 1rem 9%;
 }
 .about h3 {
+  text-align: center;
   font-size: 2.5rem;
   font-weight: bolder;
   color: #17a589;
   line-height: 30px;
 }
 .about p {
+  text-align: center;
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
   /* line-height: 1.8; */
 }
 .about blockquote {
+  text-align: center;
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;

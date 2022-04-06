@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>
-        &#160; © <span>Iryna Tiutiun</span>&#160; 2022 &#160;
+        <span>Iryna Tiutiun</span>&#160; © &#160;2022 &#160;
         <a
           href="https://github.com/Irenkia/car-rental"
           target="_blank"
