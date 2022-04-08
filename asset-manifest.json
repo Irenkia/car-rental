@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/car-rental/static/css/main.ddd79862.css",
-    "main.js": "/car-rental/static/js/main.c83b155e.js",
+    "main.css": "/car-rental/static/css/main.e61d9323.css",
+    "main.js": "/car-rental/static/js/main.efa66c8d.js",
     "static/media/banner1.jpg": "/car-rental/static/media/banner1.5a8f0d375dfcb8fe4bcd.jpg",
     "static/media/fon3.jpg": "/car-rental/static/media/fon3.48a007e9b700e109f97d.jpg",
     "static/media/about.jpg": "/car-rental/static/media/about.354d92bd14b859bfdbca.jpg",
-    "static/media/icon_3.png": "/car-rental/static/media/icon_3.8f64c6b0c0035f7bc469.png",
-    "static/media/icon_1.png": "/car-rental/static/media/icon_1.cecabfddfb8da8f7b48e.png",
-    "static/media/icon_2.png": "/car-rental/static/media/icon_2.7ddc78f5927c33c5624d.png",
-    "static/media/man.jpg": "/car-rental/static/media/man.de55e32dae95944a70bf.jpg",
+    "static/media/repair_car_2.png": "/car-rental/static/media/repair_car_2.ed19cfd437f26cebee9c.png",
+    "static/media/call_driver_1.png": "/car-rental/static/media/call_driver_1.e2e112dc008344ac96f5.png",
+    "static/media/car_rental_1.png": "/car-rental/static/media/car_rental_1.3e67a0e860ad0b6fd000.png",
+    "static/media/insurance_1.png": "/car-rental/static/media/insurance_1.1a5e2b58d1beaaa04422.png",
+    "static/media/taxi_2.png": "/car-rental/static/media/taxi_2.d7b06429e4c2f554b9de.png",
+    "static/media/car_wash_3.png": "/car-rental/static/media/car_wash_3.d80b06caa5ca3a749df1.png",
+    "static/media/toyota_corolla.jpg": "/car-rental/static/media/toyota_corolla.41dfef53a227dbd4255d.jpg",
+    "static/media/toyota_c_hr.png": "/car-rental/static/media/toyota_c_hr.ea86612d15993a66e34d.png",
+    "static/media/toyota_proace.jpg": "/car-rental/static/media/toyota_proace.f91c4d146dbdbeb904b4.jpg",
+    "static/media/toyota_rav4.jpg": "/car-rental/static/media/toyota_rav4.9f4f42c7d9f05d98ac12.jpg",
+    "static/media/toyota_hilux.jpg": "/car-rental/static/media/toyota_hilux.5c5d3f0974f4c9d39f22.jpg",
     "index.html": "/car-rental/index.html",
-    "main.ddd79862.css.map": "/car-rental/static/css/main.ddd79862.css.map",
-    "main.c83b155e.js.map": "/car-rental/static/js/main.c83b155e.js.map"
+    "main.e61d9323.css.map": "/car-rental/static/css/main.e61d9323.css.map",
+    "main.efa66c8d.js.map": "/car-rental/static/js/main.efa66c8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddd79862.css",
-    "static/js/main.c83b155e.js"
+    "static/css/main.e61d9323.css",
+    "static/js/main.efa66c8d.js"
   ]
 }
