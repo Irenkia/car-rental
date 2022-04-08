@@ -3,6 +3,7 @@ import Home from "../../pages/Home";
 import About from "../../pages/About";
 import Services from "../../pages/Services";
 import Pricing from "../../pages/Pricing";
+import Cars from "../../pages/Cars";
 //import "./styles.css";
 
 const Main = () => {
@@ -12,6 +13,7 @@ const Main = () => {
       <About />
       <Services />
       <Pricing />
+      <Cars />
     </div>
   );
 };

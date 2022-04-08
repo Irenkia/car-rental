@@ -6,7 +6,7 @@ import toyota_rav4 from "../assets/toyota_rav4.jpg";
 import toyota_yaris from "../assets/toyota_yaris.jpg";
 import toyota_corolla from "../assets/toyota_corolla.jpg";
 
-export const PRICING = [
+export const CARS = [
   {
     id: 1,
     img: <img src={toyota_camry} alt="Logo" />,

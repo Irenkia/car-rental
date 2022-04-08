@@ -1,23 +1,24 @@
 * {
   box-sizing: border-box;
 }
-.pricing {
-  /* display: flex; */
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #17a589;
+  padding: 50px;
+  line-height: 30px;
+}
+.cars {
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 50px;
   font-family: Arial;
-  background-color: #f4e5b6;
+  background: url(../../assets/fon3.jpg) no-repeat;
 }
-/* .column {
-  flex: 30%;
-  max-width: 30%;
-  padding: 0 4px;
-  float: left;
-  width: 25%;
-} */
 .card {
   width: 200px;
   padding: 10px;

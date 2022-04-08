@@ -5,10 +5,10 @@ import "./CSS/stylesAbout.css";
 const About = () => {
   return (
     <div>
-      <div>
+      <div id="about">
         <h3>About Us</h3>
       </div>
-      <div className="about" id="about">
+      <div className="about">
         <div>
           <img src={about} alt="about us" />
         </div>
