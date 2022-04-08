@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+}
+.column {
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+  float: left;
+  width: 25%;
+}

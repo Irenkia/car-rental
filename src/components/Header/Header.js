@@ -6,7 +6,9 @@ const Header = () => {
     <div className="header">
       <h2 className="logo">Car Rental</h2>
       <nav className="navbar">
-        <a href="#home">Home</a>
+        <a href="#home" id="active">
+          Home
+        </a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#pricing">Pricing</a>

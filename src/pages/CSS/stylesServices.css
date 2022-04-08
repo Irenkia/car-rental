@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #17a589;
+  padding: 50px;
+  line-height: 30px;
+}
 .services {
   display: flex;
   align-items: center;
@@ -8,18 +16,11 @@
   width: 100%;
 
   text-align: center;
+  background: url(../../assets/fon3.jpg) no-repeat;
 
-  background-color: #f4e5b6;
+  /* background-color: #f4e5b6; */
   padding: 20px;
   font-family: Arial;
-}
-.services h3 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  color: #17a589;
-  padding: 50px;
-  line-height: 30px;
 }
 .row {
   display: flex;
