@@ -1,6 +1,8 @@
 .home {
   display: flex;
-  /* align-items: center; */
+  /* flex-direction: wrap; */
+  /* align-items: flex-start; */
+  /* align-content: flex-start; */
   justify-content: center;
   /* text-align: top; */
   background: url(../../assets/banner1.jpg) no-repeat;
@@ -19,6 +21,8 @@
   font-size: 3rem;
   line-height: 10px;
   text-align: center;
+  /* align-self: flex-start; */
+  /* align-content: flex-start; */
   /* text-shadow: #666; */
 }
 .content h3 span {

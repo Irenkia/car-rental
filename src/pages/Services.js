@@ -15,7 +15,8 @@ const Services = () => {
             <div className="row">
               <div className="column">
                 <div key={item.id} className="box">
-                  {item.img}
+                  <div id="i">{item.img}</div>
+                  {/* {item.img} */}
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
                 </div>

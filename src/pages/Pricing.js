@@ -3,26 +3,67 @@ import { PRICING } from "../constants/pricing";
 import "./CSS/stylesPricing.css";
 
 const Pricing = () => {
+  // const addCarHour = () => {
+  //   <a href="#order"></a>;
+  // };
+  // const addCarDay = () => {
+  //   <a href="#order"></a>;
+  // };
+  // const addCarMonth = () => {
+  //   <a href="#order"></a>;
+  // };
   return (
     <div>
       <div id="pricing">
         <h3>Pricing</h3>
-        <div className="pricing">
-          {PRICING.map((item) => {
-            return (
-              <div key={item.id} className="card">
-              <div class="card-img">{item.img}</div>
-              <h2>{item.carBrand}</h2>
-              <h4>{item.carModel}</h4>
-              <p>{item.year}</p>
-            </div>
-
-            );
-          })}
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th>Car Model</th>
+                <th></th>
+                <th>Per Hour Rate</th>
+                <th></th>
+                <th>Per Day Rate</th>
+                <th></th>
+                <th>Leasing</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {PRICING.map((item) => {
+                return (
+                  <tr key={item.id} className="">
+                    <td>{item.img}</td>
+                    <td>
+                      {item.carBrand}
+                      <br />
+                      {item.carModel}
+                      <br />
+                      {item.year}
+                    </td>
+                    <td>$5/per hour</td>
+                    <td>
+                      <button>Rent a car</button>
+                    </td>
+                    <td>$10/per day</td>
+                    <td>
+                      {" "}
+                      <button>Rent a car</button>
+                    </td>
+                    <td>$350/per month</td>
+                    <td>
+                      {" "}
+                      <button>Rent a car</button>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
   );
 };
 export default Pricing;
-

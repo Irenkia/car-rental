@@ -3,6 +3,7 @@
 }
 .services {
   display: flex;
+
   /* align-items: center; */
   justify-content: space-around;
   /* width: 100%; */
@@ -10,11 +11,12 @@
   text-align: center;
   flex-direction: row;
   flex-wrap: wrap;
-  order: 3;
+  /* order: 3; */
   background: url(../../assets/fon3.jpg) no-repeat;
 
   /* background-color: #f4e5b6; */
   padding: 2px;
+  margin: auto;
   font-family: Arial;
 }
 .services h2 {
@@ -23,6 +25,10 @@
   color: #17a589;
   padding: 50px;
   line-height: 30px;
+}
+.services #i {
+  justify-content: center;
+  align-content: center;
 }
 .row {
   display: flex;
@@ -37,12 +43,14 @@
 .row,
 .row > .column {
   padding: 18px;
+  border-radius: 5px;
   /* height: 300px;
   width: 400px; */
 }
 .column {
   flex: 30%;
   align-items: center;
+  align-content: center;
   max-width: 90%;
   padding: 0 4px;
   border: 1px solid black;
@@ -58,6 +66,7 @@
   /* background-color: #f4e5b6; */
   background-color: white;
   padding: 50px;
+  border-radius: 5px;
 }
 /* .right-container {
   margin-left: 100px;

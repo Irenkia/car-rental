@@ -12,7 +12,7 @@ const Home = () => {
             We've Got All <span>Great</span> Models For You
           </h3>
           <p>Fast And Easy Way To Rent A Car</p>
-          <a href="#form" className="btn">
+          <a href="#pricing" className="btn">
             Hire now
           </a>
         </div>

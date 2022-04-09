@@ -4,6 +4,7 @@ import About from "../../pages/About";
 import Services from "../../pages/Services";
 import Pricing from "../../pages/Pricing";
 import Cars from "../../pages/Cars";
+import Order from "../../pages/Order";
 //import "./styles.css";
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
       <Services />
       <Pricing />
       <Cars />
+      <Order />
     </div>
   );
 };

@@ -13,8 +13,8 @@ const Cars = () => {
           return (
             <div key={item.id} className="card">
               <div class="card-img">{item.img}</div>
-              <h2>{item.carBrand}</h2>
-              <h4>{item.carModel}</h4>
+              <h4>{item.carBrand}</h4>
+              <h2>{item.carModel}</h2>
               <p>{item.year}</p>
             </div>
           );
