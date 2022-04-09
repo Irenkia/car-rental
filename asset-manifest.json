@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/car-rental/static/css/main.e61d9323.css",
-    "main.js": "/car-rental/static/js/main.efa66c8d.js",
+    "main.css": "/car-rental/static/css/main.a14421db.css",
+    "main.js": "/car-rental/static/js/main.4d80a1aa.js",
     "static/media/banner1.jpg": "/car-rental/static/media/banner1.5a8f0d375dfcb8fe4bcd.jpg",
     "static/media/fon3.jpg": "/car-rental/static/media/fon3.48a007e9b700e109f97d.jpg",
     "static/media/about.jpg": "/car-rental/static/media/about.354d92bd14b859bfdbca.jpg",
-    "static/media/repair_car_2.png": "/car-rental/static/media/repair_car_2.ed19cfd437f26cebee9c.png",
-    "static/media/call_driver_1.png": "/car-rental/static/media/call_driver_1.e2e112dc008344ac96f5.png",
-    "static/media/car_rental_1.png": "/car-rental/static/media/car_rental_1.3e67a0e860ad0b6fd000.png",
+    "static/media/repair_car_2.png": "/car-rental/static/media/repair_car_2.bd42cbede56fd41003d7.png",
+    "static/media/car_rental_1.png": "/car-rental/static/media/car_rental_1.0e5140bab20b9b5370ca.png",
     "static/media/insurance_1.png": "/car-rental/static/media/insurance_1.1a5e2b58d1beaaa04422.png",
-    "static/media/taxi_2.png": "/car-rental/static/media/taxi_2.d7b06429e4c2f554b9de.png",
-    "static/media/car_wash_3.png": "/car-rental/static/media/car_wash_3.d80b06caa5ca3a749df1.png",
-    "static/media/toyota_corolla.jpg": "/car-rental/static/media/toyota_corolla.41dfef53a227dbd4255d.jpg",
-    "static/media/toyota_c_hr.png": "/car-rental/static/media/toyota_c_hr.ea86612d15993a66e34d.png",
-    "static/media/toyota_proace.jpg": "/car-rental/static/media/toyota_proace.f91c4d146dbdbeb904b4.jpg",
-    "static/media/toyota_rav4.jpg": "/car-rental/static/media/toyota_rav4.9f4f42c7d9f05d98ac12.jpg",
-    "static/media/toyota_hilux.jpg": "/car-rental/static/media/toyota_hilux.5c5d3f0974f4c9d39f22.jpg",
+    "static/media/call_driver_1.png": "/car-rental/static/media/call_driver_1.760fb61f3656d8195e2d.png",
+    "static/media/taxi_2.png": "/car-rental/static/media/taxi_2.5a2c202099acf2bcf686.png",
+    "static/media/car_wash_3.png": "/car-rental/static/media/car_wash_3.f0c32d6b957741dda200.png",
+    "static/media/toyota_proace.png": "/car-rental/static/media/toyota_proace.6bc2ca409167aeab8683.png",
+    "static/media/toyota_rav4.png": "/car-rental/static/media/toyota_rav4.a4065d576e8721fdbddc.png",
+    "static/media/toyota_camry.png": "/car-rental/static/media/toyota_camry.2b6e42b8495e0e66ce98.png",
+    "static/media/toyota_hilux.png": "/car-rental/static/media/toyota_hilux.c8c8c28470548e13e872.png",
+    "static/media/toyota_yaris.png": "/car-rental/static/media/toyota_yaris.4873683d1360d02f1da1.png",
+    "static/media/toyota_c_hr.png": "/car-rental/static/media/toyota_c_hr.ce9491de980e2216725a.png",
+    "static/media/toyota_corolla.png": "/car-rental/static/media/toyota_corolla.602acc5fbccc57f7b477.png",
     "index.html": "/car-rental/index.html",
-    "main.e61d9323.css.map": "/car-rental/static/css/main.e61d9323.css.map",
-    "main.efa66c8d.js.map": "/car-rental/static/js/main.efa66c8d.js.map"
+    "main.a14421db.css.map": "/car-rental/static/css/main.a14421db.css.map",
+    "main.4d80a1aa.js.map": "/car-rental/static/js/main.4d80a1aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.e61d9323.css",
-    "static/js/main.efa66c8d.js"
+    "static/css/main.a14421db.css",
+    "static/js/main.4d80a1aa.js"
   ]
 }
