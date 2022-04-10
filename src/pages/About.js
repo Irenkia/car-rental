@@ -15,13 +15,16 @@ const About = () => {
         <div id="floater"></div>
         <div>
           <p>Better Way to Rent Your Perfect Cars</p>
-          <blockquote>
-            FOR AS LOW AS $30 A DAY PLUS 15% DISCOUNT FOR OUR RETURNING
-            CUSTOMERS
-          </blockquote>
+          <p>
+            {" "}
+            For As Low As $30 A Day Plus 15% Discount For Our Returning
+            Customers
+          </p>
         </div>
       </div>
     </div>
   );
 };
 export default About;
+
+/* FOR AS LOW AS $30 A DAY PLUS 15% DISCOUNT FOR OUR RETURNING CUSTOMERS */

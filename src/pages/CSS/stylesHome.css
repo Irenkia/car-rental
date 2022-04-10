@@ -16,6 +16,8 @@
   width: 60rem;
 } */
 .content h3 {
+  /* display: flex;
+  align-content: flex-start; */
   padding-top: 20px;
   color: #130f40;
   font-size: 3rem;

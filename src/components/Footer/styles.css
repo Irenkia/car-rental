@@ -1,6 +1,5 @@
 .footer {
   /* margin-bottom: 10px; */
-  /* background-color: #5fd8bd; */
   background-color: #e0c28d;
   height: 10em;
   display: flex;
@@ -14,10 +13,11 @@ span {
   font-size: 1.4em;
 }
 a {
+  /* color: #146928; */
   color: rgb(16, 110, 90);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #17a589;
+  color: #36533d;
 }

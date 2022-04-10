@@ -9,6 +9,7 @@
   text-align: center;
   padding: 20px;
   font-family: Arial;
+  background-color: #f4e5b6;
 }
 table {
   width: 100%;
@@ -40,6 +41,9 @@ tbody td {
 tbody img {
   border-radius: 5px;
 }
+/* tbody img:hover {
+  box-shadow: 2px 2px 0 #1c0a93;
+} */
 tbody button {
   border: 0;
   border-radius: 5px;
@@ -48,4 +52,5 @@ tbody button {
   font-size: inherit;
   padding: 0.5em;
   margin-bottom: 1px;
+  text-decoration: none;
 }

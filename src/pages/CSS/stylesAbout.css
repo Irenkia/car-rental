@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 h3 {
   text-align: center;
   font-size: 2.5rem;
@@ -6,6 +9,10 @@ h3 {
   line-height: 30px;
   margin-top: 0;
   margin-bottom: 20px;
+}
+.container {
+  background-color: #f4e5b6;
+  border: #1b165a;
 }
 #floater {
   float: right;
@@ -24,18 +31,45 @@ h3 {
   padding: 1rem 9%;
 }
 .about p {
+  /* display: flex; */
   text-align: center;
-  color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
   /* line-height: 1.8; */
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: #1b165a;
+  padding-top: 500px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 500px;
+  font-family: Arial;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #1c0a93;
+  border-radius: 3px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.about p:hover {
+  box-shadow: 2px 2px 0 #1c0a93;
 }
 .about blockquote {
+  display: flex;
   text-align: center;
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
   /* line-height: 1.8; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: #1b165a;
+  padding: 50px;
+  font-family: Arial;
 }
 .about img {
   padding: 1rem 0;

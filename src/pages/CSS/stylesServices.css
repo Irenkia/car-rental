@@ -53,7 +53,9 @@
   align-content: center;
   max-width: 90%;
   padding: 0 4px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border: 1px solid #1c0a93;
+
   /* float: left; */
   width: 25%;
 }
@@ -67,6 +69,10 @@
   background-color: white;
   padding: 50px;
   border-radius: 5px;
+}
+.box:hover {
+  box-shadow: 3px 3px 0 #1c0a93;
+  background-color: #f4e5b6;
 }
 /* .right-container {
   margin-left: 100px;

@@ -3,20 +3,11 @@ import { PRICING } from "../constants/pricing";
 import "./CSS/stylesPricing.css";
 
 const Pricing = () => {
-  // const addCarHour = () => {
-  //   <a href="#order"></a>;
-  // };
-  // const addCarDay = () => {
-  //   <a href="#order"></a>;
-  // };
-  // const addCarMonth = () => {
-  //   <a href="#order"></a>;
-  // };
   return (
     <div>
       <div id="pricing">
         <h3>Pricing</h3>
-        <div>
+        <div className="pricing">
           <table>
             <thead>
               <tr>
@@ -44,17 +35,25 @@ const Pricing = () => {
                     </td>
                     <td>$5/per hour</td>
                     <td>
-                      <button>Rent a car</button>
+                      <button>
+                        {" "}
+                        <a href="#order">Rent a car</a>
+                      </button>
                     </td>
                     <td>$10/per day</td>
                     <td>
                       {" "}
-                      <button>Rent a car</button>
+                      <button>
+                        <a href="#order">Rent a car</a>
+                      </button>
                     </td>
                     <td>$350/per month</td>
                     <td>
                       {" "}
-                      <button>Rent a car</button>
+                      <button>
+                        {" "}
+                        <a href="#order">Rent a car</a>
+                      </button>
                     </td>
                   </tr>
                 );
