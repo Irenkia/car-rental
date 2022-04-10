@@ -28,6 +28,7 @@ thead th {
 tbody tr:hover {
   background-color: #eee;
   color: #0e025e;
+  box-shadow: 2px 2px 0 #1c0a93;
 }
 tbody td {
   padding: 0.5em;
@@ -36,9 +37,12 @@ tbody td {
   text-align: center;
   font-size: 20px;
 }
+tbody img {
+  border-radius: 5px;
+}
 tbody button {
   border: 0;
-  border-radius: none;
+  border-radius: 5px;
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
