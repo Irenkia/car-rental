@@ -13,7 +13,8 @@
   flex-wrap: wrap;
   /* order: 3; */
   background: url(../../assets/fon3.jpg) no-repeat;
-
+  color: #1b165a;
+  font-size: 17px;
   /* background-color: #f4e5b6; */
   padding: 2px;
   margin: auto;
@@ -55,7 +56,6 @@
   padding: 0 4px;
   /* border: 1px solid black; */
   border: 1px solid #1c0a93;
-
   /* float: left; */
   width: 25%;
 }

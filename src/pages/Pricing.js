@@ -8,6 +8,9 @@ const Pricing = () => {
       <div id="pricing">
         <h3>Pricing</h3>
         <div className="pricing">
+          {/* <div>
+            <p>For More Informations</p>
+          </div> */}
           <table>
             <thead>
               <tr>

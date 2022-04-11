@@ -3,6 +3,7 @@
 }
 .pricing {
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -11,6 +12,11 @@
   font-family: Arial;
   background-color: #f4e5b6;
 }
+/* .pricing p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  color: #0e025e;
+} */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -18,7 +24,8 @@ table {
 }
 thead th {
   text-align: end;
-  border-bottom: 2px solid black;
+  /* border-top: 2px solid #1b165a; */
+  border-bottom: 2px solid #1b165a;
   font-size: 25px;
   margin: 0;
   padding: 20px 0;
@@ -30,6 +37,7 @@ tbody tr:hover {
   background-color: #eee;
   color: #0e025e;
   box-shadow: 2px 2px 0 #1c0a93;
+  border-radius: 5px;
 }
 tbody td {
   padding: 0.5em;
@@ -53,4 +61,14 @@ tbody button {
   padding: 0.5em;
   margin-bottom: 1px;
   text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }

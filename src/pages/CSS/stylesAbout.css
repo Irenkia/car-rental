@@ -47,7 +47,8 @@ h3 {
   padding-right: 50px;
   padding-bottom: 500px;
   font-family: Arial;
-  margin: 20px;
+  margin-bottom: 50px;
+  margin-left: 25px;
   padding: 10px;
   border: 1px solid #1c0a93;
   border-radius: 3px;
@@ -74,4 +75,14 @@ h3 {
 .about img {
   padding: 1rem 0;
   /* line-height: 1.8; */
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }

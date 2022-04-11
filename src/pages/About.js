@@ -15,6 +15,7 @@ const About = () => {
         <div id="floater"></div>
         <div>
           <p>Better Way to Rent Your Perfect Cars</p>
+          <p>Choose Your Car</p>
           <p>
             {" "}
             For As Low As $30 A Day Plus 15% Discount For Our Returning

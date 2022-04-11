@@ -28,11 +28,12 @@ const Order = () => {
           <table>
             <caption>New Order</caption>
             <tr>
-              <td>Pick-up location</td>
-              <td></td>
+              <td>
+                <h4>Pick-up location</h4>
+              </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 {" "}
                 <input
                   name="pickUpLocation"
@@ -44,11 +45,12 @@ const Order = () => {
               </td>
             </tr>
             <tr>
-              <td>Drop-off location</td>
-              <td></td>
+              <td>
+                <h4>Drop-off location</h4>
+              </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 <input
                   name="dropOffLocation"
                   type="text"
@@ -59,11 +61,14 @@ const Order = () => {
               </td>
             </tr>
             <tr>
-              <td>Pick-up date</td>
-              <td></td>
+              <td>
+                <h4>
+                  <h4>Pick-up date</h4>
+                </h4>
+              </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 <input
                   name="dt"
                   type="date"
@@ -74,11 +79,12 @@ const Order = () => {
               </td>
             </tr>
             <tr>
-              <td>Drop-off date</td>
-              <td></td>
+              <td>
+                <h4>Drop-off date</h4>
+              </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 <input
                   name="dt"
                   type="date"
@@ -89,11 +95,12 @@ const Order = () => {
               </td>
             </tr>
             <tr>
-              <td>Pick-up time</td>
-              <td></td>
+              <td>
+                <h4>Pick-up time</h4>
+              </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 <input
                   name="time"
                   type="text"
@@ -104,7 +111,7 @@ const Order = () => {
               </td>
             </tr>
             <tr>
-              <td id="span">
+              <td>
                 {" "}
                 <input
                   className="submitButton"
