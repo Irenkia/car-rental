@@ -8,9 +8,15 @@ const Home = () => {
         {/* <img src={banner1} alt="banner" /> */}
         <div className="content">
           {/* <img src={banner1} alt="banner" /> */}
-          <h3>
+          <div>
+            {" "}
+            <h3>
+              We've Got All <span>Great</span> Models For You
+            </h3>
+          </div>
+          {/* <h3>
             We've Got All <span>Great</span> Models For You
-          </h3>
+          </h3> */}
           <p>Fast And Easy Way To Rent A Car</p>
           <a href="#pricing" className="btn">
             Hire now

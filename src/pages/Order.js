@@ -128,4 +128,3 @@ const Order = () => {
 };
 export default Order;
 
-// addLog([pickUpLocation, dropOffLocation, dateUp, dateOff, time]);

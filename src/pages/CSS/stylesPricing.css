@@ -10,7 +10,7 @@
   text-align: center;
   padding: 20px;
   font-family: Arial;
-  background-color: #f4e5b6;
+  background-color: #eee;
 }
 /* .pricing p {
   font-size: 20px;
@@ -20,13 +20,14 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #f4e5b6;
+  background-color: #eee;
 }
 thead th {
   text-align: end;
   /* border-top: 2px solid #1b165a; */
   border-bottom: 2px solid #1b165a;
   font-size: 25px;
+  font-weight: normal;
   margin: 0;
   padding: 20px 0;
   color: #146928;
@@ -34,7 +35,7 @@ thead th {
   column-span: 2;
 }
 tbody tr:hover {
-  background-color: #eee;
+  background-color: rgb(231, 222, 222);
   color: #0e025e;
   box-shadow: 2px 2px 0 #1c0a93;
   border-radius: 5px;

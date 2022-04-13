@@ -6,7 +6,11 @@
   justify-content: center;
   /* text-align: top; */
   background: url(../../assets/banner1.jpg) no-repeat;
-  /* background-image: url("../../assets/banner11.jpg"); */
+  /* background-image: url(../../assets/banner1.jpg) no-repeat; */
+
+  background-size: cover;
+  overflow: hidden;
+
   /* padding: 20rem 9%; */
   padding-top: 24%;
   padding-bottom: 20px;

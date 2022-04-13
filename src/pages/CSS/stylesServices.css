@@ -65,14 +65,13 @@
   clear: both;
 }
 .box {
-  /* background-color: #f4e5b6; */
   background-color: white;
   padding: 50px;
   border-radius: 5px;
 }
 .box:hover {
   box-shadow: 3px 3px 0 #1c0a93;
-  background-color: #f4e5b6;
+  background-color: #eee;
 }
 /* .right-container {
   margin-left: 100px;

@@ -26,17 +26,6 @@ const Cars = () => {
             ;
           </div>
         </div>
-        {/* {CARS.map((item) => {
-          return (
-            <div key={item.id} className="card">
-              <div class="card-img">{item.img}</div>
-              <h4>{item.carBrand}</h4>
-              <h2>{item.carModel}</h2>
-              <p>{item.year}</p>
-            </div>
-          );
-        })}
-        ; */}
       </div>
     </div>
   );

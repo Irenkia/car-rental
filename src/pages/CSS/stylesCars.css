@@ -44,8 +44,9 @@ h3 {
   transition: box-shadow 0.3s ease-in-out;
 }
 .card h2 {
+  font-weight: normal;
   color: #146928;
-  /* text-shadow: 3px 3px 1px #c7f1d1; */
+  text-shadow: 3px 3px 1px #c7f1d1;
 }
 .card:hover {
   box-shadow: 2px 2px 0 #1c0a93;

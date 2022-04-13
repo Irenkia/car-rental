@@ -1,6 +1,6 @@
 .footer {
   /* margin-bottom: 10px; */
-  background-color: #e0c28d;
+  background-color: #cdd3d5;
   height: 10em;
   display: flex;
   flex-direction: row;
@@ -26,5 +26,5 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #36533d;
+  color: #373253;
 }
