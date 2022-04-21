@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car-rental/static/css/main.56b450f9.css",
-    "main.js": "/car-rental/static/js/main.6a003309.js",
+    "main.css": "/car-rental/static/css/main.aeb21895.css",
+    "main.js": "/car-rental/static/js/main.b47fb44e.js",
     "static/media/banner1.jpg": "/car-rental/static/media/banner1.5a8f0d375dfcb8fe4bcd.jpg",
     "static/media/fon3.jpg": "/car-rental/static/media/fon3.48a007e9b700e109f97d.jpg",
     "static/media/about.jpg": "/car-rental/static/media/about.354d92bd14b859bfdbca.jpg",
@@ -19,11 +19,11 @@
     "static/media/toyota_c_hr.png": "/car-rental/static/media/toyota_c_hr.ce9491de980e2216725a.png",
     "static/media/toyota_corolla.png": "/car-rental/static/media/toyota_corolla.602acc5fbccc57f7b477.png",
     "index.html": "/car-rental/index.html",
-    "main.56b450f9.css.map": "/car-rental/static/css/main.56b450f9.css.map",
-    "main.6a003309.js.map": "/car-rental/static/js/main.6a003309.js.map"
+    "main.aeb21895.css.map": "/car-rental/static/css/main.aeb21895.css.map",
+    "main.b47fb44e.js.map": "/car-rental/static/js/main.b47fb44e.js.map"
   },
   "entrypoints": [
-    "static/css/main.56b450f9.css",
-    "static/js/main.6a003309.js"
+    "static/css/main.aeb21895.css",
+    "static/js/main.b47fb44e.js"
   ]
 }
