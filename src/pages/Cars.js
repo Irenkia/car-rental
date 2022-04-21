@@ -16,7 +16,7 @@ const Cars = () => {
             {CARS.map((item) => {
               return (
                 <div key={item.id} className="card">
-                  <div class="card-img">{item.img}</div>
+                  <div className="card-img">{item.img}</div>
                   <p>{item.carBrand}</p>
                   <h2>{item.carModel}</h2>
                   <h4>{item.year}</h4>

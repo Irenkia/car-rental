@@ -6,7 +6,7 @@ import Pricing from "../../pages/Pricing";
 import Cars from "../../pages/Cars";
 import Order from "../../pages/Order";
 import Contact from "../../pages/Contact";
-//import "./styles.css";
+import "./styles.css";
 
 const Main = () => {
   return (

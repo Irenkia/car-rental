@@ -1,5 +1,4 @@
 .footer {
-  /* margin-bottom: 10px; */
   background-color: #cdd3d5;
   height: 10em;
   display: flex;
@@ -20,7 +19,6 @@ span {
   font-size: 1.4em;
 }
 a {
-  /* color: #146928; */
   color: rgb(16, 110, 90);
   text-decoration: none;
 }

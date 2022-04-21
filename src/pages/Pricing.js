@@ -36,22 +36,18 @@ const Pricing = () => {
                     <td>$5/per hour</td>
                     <td>
                       <button>
-                        {" "}
                         <a href="#order">Rent a car</a>
                       </button>
                     </td>
                     <td>$10/per day</td>
                     <td>
-                      {" "}
                       <button>
                         <a href="#order">Rent a car</a>
                       </button>
                     </td>
                     <td>$350/per month</td>
                     <td>
-                      {" "}
                       <button>
-                        {" "}
                         <a href="#order">Rent a car</a>
                       </button>
                     </td>

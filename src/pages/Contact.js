@@ -19,7 +19,6 @@ const Contact = () => {
       </div>
       <div className="contact">
         <div>
-          {" "}
           <p>
             Please fill out the form below to send us an email and we will get
             back to you as soon as possible.
@@ -35,61 +34,64 @@ const Contact = () => {
             >
               <table>
                 <caption>Get In Touch</caption>
-                <tr>
-                  <td>
-                    {" "}
-                    <input
-                      name="name"
-                      type="text"
-                      value={name}
-                      placeholder="Your Name"
-                      onChange={(e) => setName(e.target.value)}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <input
-                      name="email"
-                      type="text"
-                      value={email}
-                      placeholder="Your Email"
-                      onChange={(e) => setEmail(e.target.value)}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <input
-                      name="subject"
-                      type="text"
-                      value={subject}
-                      placeholder="Subject"
-                      onChange={(e) => setSubject(e.target.value)}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <input
-                      name="message"
-                      type="text"
-                      value={message}
-                      placeholder="Message"
-                      onChange={(e) => setMessage(e.target.value)}
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    {" "}
-                    <input
-                      className="submitButton"
-                      type="submit"
-                      value="Send Message"
-                    />
-                  </td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td>
+                      {" "}
+                      <input
+                        name="name"
+                        type="text"
+                        value={name}
+                        placeholder="Your Name"
+                        onChange={(e) => setName(e.target.value)}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        name="email"
+                        type="text"
+                        value={email}
+                        placeholder="Your Email"
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        name="subject"
+                        type="text"
+                        value={subject}
+                        placeholder="Subject"
+                        onChange={(e) => setSubject(e.target.value)}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        name="message"
+                        type="text"
+                        value={message}
+                        placeholder="Message"
+                        onChange={(e) => setMessage(e.target.value)}
+                      />
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>
+                      <input
+                        className="submitButton"
+                        type="submit"
+                        value="Send Message"
+                      />
+                    </td>
+                  </tr>
+                </tfoot>
               </table>
             </form>
           </div>

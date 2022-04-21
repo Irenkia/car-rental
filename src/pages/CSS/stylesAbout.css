@@ -26,16 +26,13 @@ h3 {
   justify-content: center;
   width: 100%;
   background-color: #eee;
-
-  /* background-image: url("../../assets/banner1.jpg"); */
   padding: 1rem 9%;
 }
 .about p {
-  /* display: flex; */
   text-align: center;
   font-size: 1.7rem;
   padding: 1rem 0;
-  /* line-height: 1.8; */
+  line-height: 1.8;
   align-items: flex-start;
   align-content: flex-start;
   justify-content: center;
@@ -63,7 +60,7 @@ h3 {
   color: #130f40;
   font-size: 1.7rem;
   padding: 1rem 0;
-  /* line-height: 1.8; */
+  line-height: 1.8;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -74,7 +71,6 @@ h3 {
 }
 .about img {
   padding: 1rem 0;
-  /* line-height: 1.8; */
 }
 @media screen and (max-width: 900px) {
   .column {

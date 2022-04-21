@@ -18,7 +18,6 @@ const About = () => {
           <p>BOOK A CAR TODAY!</p>
           <p>Only quality for clients</p>
           <p>
-            {" "}
             For As Low As $30 A Day Plus 15% Discount For Our Returning
             Customers
           </p>
@@ -29,4 +28,3 @@ const About = () => {
 };
 export default About;
 
-/* FOR AS LOW AS $30 A DAY PLUS 15% DISCOUNT FOR OUR RETURNING CUSTOMERS */

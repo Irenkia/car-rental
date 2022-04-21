@@ -3,7 +3,6 @@
 }
 .pricing {
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -12,11 +11,6 @@
   font-family: Arial;
   background-color: #eee;
 }
-/* .pricing p {
-  font-size: 20px;
-  padding-bottom: 30px;
-  color: #0e025e;
-} */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -24,7 +18,6 @@ table {
 }
 thead th {
   text-align: end;
-  /* border-top: 2px solid #1b165a; */
   border-bottom: 2px solid #1b165a;
   font-size: 25px;
   font-weight: normal;
@@ -50,9 +43,6 @@ tbody td {
 tbody img {
   border-radius: 5px;
 }
-/* tbody img:hover {
-  box-shadow: 2px 2px 0 #1c0a93;
-} */
 tbody button {
   border: 0;
   border-radius: 5px;

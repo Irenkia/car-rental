@@ -36,7 +36,6 @@ form {
   justify-content: space-around;
   margin: 0 auto;
   width: 40%;
-  /* max-width: 500px; */
   padding: 30px 50px;
   border-radius: 0.5rem;
 }
@@ -84,10 +83,3 @@ input {
     width: 100%;
   }
 }
-/* input:valid {
-  border-color: green;
-}
-
-input:invalid {
-  border-color: red;
-} */

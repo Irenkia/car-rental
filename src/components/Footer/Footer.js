@@ -4,12 +4,10 @@ import "./styles.css";
 const Footer = () => {
   return (
     <div className="footer">
-      {" "}
       <div>
         <h2 className="logo">Car Rental</h2>
       </div>
       <div>
-        {" "}
         <p>
           <span>Iryna Tiutiun</span>&#160; © &#160;2022 &#160;
           <a
@@ -33,7 +31,6 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
             Template
           </a>
         </p>

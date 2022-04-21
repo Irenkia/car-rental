@@ -3,19 +3,17 @@
 }
 .services {
   display: flex;
-
-  /* align-items: center; */
   justify-content: space-around;
-  /* width: 100%; */
+  width: 100%;
   align-content: center;
   text-align: center;
   flex-direction: row;
   flex-wrap: wrap;
-  /* order: 3; */
   background: url(../../assets/fon3.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
   color: #1b165a;
   font-size: 17px;
-  /* background-color: #f4e5b6; */
   padding: 2px;
   margin: auto;
   font-family: Arial;
@@ -37,16 +35,12 @@
   align-content: center;
   flex-wrap: wrap;
   order: 3;
-  /* padding: 0 4px; */
   margin: 18px -16px;
-  /* margin: 8px -16px; */
 }
 .row,
 .row > .column {
   padding: 18px;
   border-radius: 5px;
-  /* height: 300px;
-  width: 400px; */
 }
 .column {
   flex: 30%;
@@ -54,9 +48,8 @@
   align-content: center;
   max-width: 90%;
   padding: 0 4px;
-  /* border: 1px solid black; */
   border: 1px solid #1c0a93;
-  /* float: left; */
+  float: left;
   width: 25%;
 }
 .row:after {
@@ -73,13 +66,7 @@
   box-shadow: 3px 3px 0 #1c0a93;
   background-color: #eee;
 }
-/* .right-container {
-  margin-left: 100px;
-  padding-left: 190px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-} */
+
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
