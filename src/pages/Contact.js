@@ -37,7 +37,6 @@ const Contact = () => {
                 <tbody>
                   <tr>
                     <td>
-                      {" "}
                       <input
                         name="name"
                         type="text"
